@@ -73,7 +73,7 @@ header {
 Navigation Bar
 
 -------------------------------- */
-ul {
+.nav ul {
     width: 72%;
     list-style-type: none;
     border-radius: 15px;
@@ -85,12 +85,12 @@ ul {
     top: -100px;
 }
 
-li {
+.nav li {
     float: left;
     width: 20%;
 }
 
-li a {
+.nav li a {
     display: block;
     color: #666;
     text-align: center;
@@ -98,12 +98,12 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.nav li a:hover:not(.active) {
     color: white;
     background-color: #ce2c4b;
 }
 
-li a.active {
+.nav li a.active {
     color: white;
     background-color: #18aced;
 }
@@ -153,8 +153,9 @@ blockquote {
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
-  }
-  blockquote:before {
+}
+
+blockquote:before {
     color: #ce2c4b;
     content: open-quote;
     font-family: sans-serif;
@@ -162,10 +163,11 @@ blockquote {
     line-height: 0.1em;
     margin-right: 0.25em;
     vertical-align: -0.4em;
-  }
-  blockquote p {
+}
+
+blockquote p {
     display: inline;
-  }
+}
 
 /* -------------------------------- 
 
@@ -190,7 +192,7 @@ Mobile View
         padding:10px;
     }
 
-    ul {
+    .navigation ul {
         width: 92%;
         list-style-type: none;
         border-radius: 15px;

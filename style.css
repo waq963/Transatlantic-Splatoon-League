@@ -1,3 +1,136 @@
 html, body, h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
+    color:rgb(53, 53, 53);
+    font-size: 0.9rem;
+}
+
+body {
+    background-color: black;
+}
+
+/* -------------------------------- 
+
+Header
+
+-------------------------------- */
+#wrapper{
+	position: relative;
+	width: 100%;
+    background: #0000;
+    top: -40px;
+}
+
+#wrapper:after{
+	content: "";
+	display: block;
+	padding-top: 27.06666%; /* 406 over 1500  */
+}
+#bg_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(http://transatlanticsplat.com/img/logos/TASL_League_Assets_SGG_Header.png);
+    background-size: 100% 100%;
+    z-index:-1;
+}
+
+/* -------------------------------- 
+
+Body
+
+-------------------------------- */
+.container
+{
+  text-align: center;
+  padding: 15px;  
+}
+
+.test {
+    position: absolute; 
+    top: 0px;
+}
+
+.content{ 
+    border-top: 3px solid #18aced;
+    border-bottom: 3px solid #ce2c4b;
+    background: rgba(228,234,249, 1.0);
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom:10px;
+    padding:10px;
+}
+
+header {
+    margin-bottom:10px;
+    letter-spacing: 3px;
+    font-family: Lato;
+    font-style: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    color:#164151;
+}
+
+/* -------------------------------- 
+
+Navigation Bar
+
+-------------------------------- */
+ul {
+    width: 72%;
+    list-style-type: none;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    top: -100px;
+}
+
+li {
+    float: left;
+    width: 20%;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: white;
+    background-color: #ce2c4b;
+}
+
+li a.active {
+    color: white;
+    background-color: #18aced;
+}
+
+/* -------------------------------- 
+
+Sylization
+
+-------------------------------- */
+b{
+    color: #ce2c4b;
+}
+
+i{
+    color: #18aced;
+}
+
+a{
+    color: #8b669c;
+    text-decoration:none;
+}
+
+a:hover{
+    color: #524969;
 }

@@ -1,11 +1,11 @@
-html, body, h1, h2, h3, h4, h5, h6 {
+html, body {
     font-family: 'Open Sans', sans-serif;
     color:rgb(53, 53, 53);
     font-size: 0.9rem;
 }
 
 body {
-    background-color: black;
+    background-color: #07080c;
 }
 
 /* -------------------------------- 
@@ -47,11 +47,6 @@ Body
   padding: 15px;  
 }
 
-.test {
-    position: absolute; 
-    top: 0px;
-}
-
 .content{ 
     border-top: 3px solid #18aced;
     border-bottom: 3px solid #ce2c4b;
@@ -66,7 +61,7 @@ Body
 header {
     margin-bottom:10px;
     letter-spacing: 3px;
-    font-family: Lato;
+    font-family: sans-serif;
     font-style: bold;
     font-size: 1.5rem;
     text-align: center;
@@ -133,4 +128,78 @@ a{
 
 a:hover{
     color: #524969;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    color: #8b669c;
+}
+
+h2{
+    font-family: 'Palatino';
+    font-size: 1.2rem;
+    color: #18aced;
+}
+
+h3{
+    font-family: georgia;
+    font-style: italic;
+    font-size: 1rem;
+    color: #ce2c4b;
+}
+
+blockquote {
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #ce2c4b;
+    content: open-quote;
+    font-family: sans-serif;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
+
+/* -------------------------------- 
+
+Mobile View
+
+-------------------------------- */
+@media (max-width: 600px) {
+    html, body{
+        font-family: 'Open Sans', sans-serif;
+        color:rgb(53, 53, 53);
+        font-size: 1.1rem;
+    }
+
+    .content{ 
+        border-top: 3px solid #18aced;
+        border-bottom: 3px solid #ce2c4b;
+        background: rgba(228,234,249, 1.0);
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom:10px;
+        padding:10px;
+    }
+
+    ul {
+        width: 92%;
+        list-style-type: none;
+        border-radius: 15px;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        border: 1px solid #e7e7e7;
+        background-color: #f3f3f3;
+        top: -100px;
+    }
+
 }

@@ -60,7 +60,7 @@ Body
 
 header {
     margin-bottom:10px;
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: bold;
     font-size: 1.5rem;
     text-align: center;
@@ -86,7 +86,7 @@ Navigation Bar
 
 .nav li {
     float: left;
-    width: 20%;
+    width: 16.5%;
 }
 
 .nav li a {
@@ -135,19 +135,19 @@ u{
 }
 
 h1{
-    font-family: sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 1.4rem;
     color: #8b669c;
 }
 
 h2{
-    font-family: 'Palatino';
+    font-family: 'PT Sans', sans-serif;
     font-size: 1.2rem;
     color: #18aced;
 }
 
 h3{
-    font-family: georgia;
+    font-family: 'PT Sans', sans-serif;
     font-style: italic;
     font-size: 1rem;
     color: #ce2c4b;
@@ -162,7 +162,7 @@ blockquote {
 blockquote:before {
     color: #ce2c4b;
     content: open-quote;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 4em;
     line-height: 0.1em;
     margin-right: 0.25em;
@@ -178,6 +178,14 @@ blockquote p {
     border-radius: 15px;
     padding: 10px;
     margin: 10px;
+}
+
+tbd {
+    color: #ce2c4b;
+    font-size: 7em;
+    align-content: center;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;    
 }
 
 /* -------------------------------- 

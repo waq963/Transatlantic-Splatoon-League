@@ -73,7 +73,7 @@ Navigation Bar
 
 -------------------------------- */
 .nav ul {
-    width: 72%;
+    width: 71%;
     list-style-type: none;
     border-radius: 15px;
     margin: 0 auto;
@@ -86,7 +86,7 @@ Navigation Bar
 
 .nav li {
     float: left;
-    width: 16.5%;
+    width: 16.666%;
 }
 
 .nav li a {
@@ -183,8 +183,9 @@ blockquote p {
 tbd {
     color: #ce2c4b;
     font-size: 7em;
-    align-content: center;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'ABeeZee', sans-serif;    
 }
 

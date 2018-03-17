@@ -83,6 +83,21 @@ div#rightdiv {
     padding-left: 5px;
 }
 
+div#mapwrapper{
+    width: 100%;
+    overflow:hidden;
+}
+
+div#column{
+    float: left; 
+    width: 25%;
+}
+
+div#column2{
+    float: right; 
+    width: 25%; 
+}
+
 /* -------------------------------- 
 
 Navigation Bar
@@ -283,6 +298,15 @@ Mobile View
         overflow:hidden;
         margin-top: -10px;
         padding-left: 0px;
+    }
+
+
+    div#column{
+        width: 100%;
+    }
+
+    div#column2{
+        width: 100%; 
     }
 
 }

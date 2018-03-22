@@ -291,6 +291,10 @@ team_img {
     width: 30%;
 }
 
+.season_img {
+    width: 40%;
+}
+
 /* -------------------------------- 
 
 Mobile View
@@ -350,4 +354,7 @@ Mobile View
         width: 100%; 
     }
 
+    .season_img {
+        width:85%;
+    }
 }

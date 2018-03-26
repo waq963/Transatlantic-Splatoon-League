@@ -331,7 +331,7 @@ Mobile View
 
 -------------------------------- */
 @media 
-only screen and (max-width: 760px),
+only screen and (max-width: 1000px),
 (min-device-width: 768px) and (max-device-width: 1024px) {
     html, body{
         font-family: 'Open Sans', sans-serif;

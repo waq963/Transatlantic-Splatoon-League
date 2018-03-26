@@ -297,10 +297,42 @@ team_img {
 
 /* -------------------------------- 
 
+Table
+
+-------------------------------- */
+table {
+    border-spacing: 0;
+    width: 100%;
+    border: 2px solid #8b669c;  
+    border-radius: 1em;
+    overflow: hidden;
+    background-color: white;
+}
+
+th {
+    cursor: pointer;
+    background-color:#cab9d2; 
+    
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px solid rgba(228,234,249, 1.0); 
+}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+/* -------------------------------- 
+
 Mobile View
 
 -------------------------------- */
-@media (max-width: 1000px) {
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
     html, body{
         font-family: 'Open Sans', sans-serif;
         color:rgb(53, 53, 53);
@@ -357,4 +389,52 @@ Mobile View
     .season_img {
         width:85%;
     }
+
+    table { 
+    width: 100%; 
+    border-radius: 1em;
+    }
+
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr { 
+    display: block; 
+    border-bottom: 0; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  tr { border: 1px solid #ccc;}
+  
+  td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%; 
+    padding-bottom:1em;
+  }
+
+  th, td {
+    border-bottom: 0px; 
+  }
+
+  td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+    /* Label the data */
+    content: attr(data-column);
+    color: #000;
+    font-weight: bold;
+  }
 }

@@ -4,6 +4,7 @@
     <title>Transatlantic Splatoon League</title>
 
     <link href="./style.css" rel="stylesheet" />
+    <script src="./transatlantic.js"></script>
 </head>
 
 <body> 
@@ -34,8 +35,122 @@
         </div>
 
         <div class="content">
-                <tbd>Coming Soon...</tbd>
-
+            <table id="leaderboard">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable(0)">Rank</th>
+                        <th onclick="sortTable(1)">Team</th>
+                        <th onclick="sortTable(2)">Win Rate</th>
+                        <th onclick="sortTable(3)">Average Kills</th>
+                        <th onclick="sortTable(4)">Average Deaths</th>
+                        <th onclick="sortTable(5)">Average Specials</th>
+                        <th onclick="sortTable(6)">Average Turf Inked</th>
+                        <th onclick="sortTable(7)">Team Members</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-column="Rank"></td>
+                        <td data-column="Team">SetToDestroyX</td>
+                        <td data-column="Win Rate"></td>
+                        <td data-column="Average Kills"></td>
+                        <td data-column="Average Deaths"></td>
+                        <td data-column="Average Specials"></td>
+                        <td data-column="Average Turf Inked"></td>
+                        <td data-column="Team Members"></td>
+                    </tr>
+                    <tr>
+                        <td data-column="Rank"></td>
+                        <td data-column="Team">Saikai</td>
+                        <td data-column="Win Rate"></td>
+                        <td data-column="Average Kills"></td>
+                        <td data-column="Average Deaths"></td>
+                        <td data-column="Average Specials"></td>
+                        <td data-column="Average Turf Inked"></td>
+                        <td data-column="Team Members"></td>
+                    </tr>
+                    <tr>
+                        <td data-column="Rank"></td>
+                        <td data-column="Team">TOMO</td>
+                        <td data-column="Win Rate"></td>
+                        <td data-column="Average Kills"></td>
+                        <td data-column="Average Deaths"></td>
+                        <td data-column="Average Specials"></td>
+                        <td data-column="Average Turf Inked"></td>
+                        <td data-column="Team Members"></td>
+                    </tr>
+                    <tr>
+                        <td data-column="Rank"></td>
+                        <td data-column="Team">InC Neptune</td>
+                        <td data-column="Win Rate"></td>
+                        <td data-column="Average Kills"></td>
+                        <td data-column="Average Deaths"></td>
+                        <td data-column="Average Specials"></td>
+                        <td data-column="Average Turf Inked"></td>
+                        <td data-column="Team Members"></td>
+                    </tr>
+                    <tr>
+                        <td data-column="Rank"></td>
+                        <td data-column="Team">Saffron Rice</td>
+                        <td data-column="Win Rate"></td>
+                        <td data-column="Average Kills"></td>
+                        <td data-column="Average Deaths"></td>
+                        <td data-column="Average Specials"></td>
+                        <td data-column="Average Turf Inked"></td>
+                        <td data-column="Team Members"></td>
+                    </tr>
+                    <tr>
+                        <td data-column="Rank"></td>
+                        <td data-column="Team">Ethereal</td>
+                        <td data-column="Win Rate"></td>
+                        <td data-column="Average Kills"></td>
+                        <td data-column="Average Deaths"></td>
+                        <td data-column="Average Specials"></td>
+                        <td data-column="Average Turf Inked"></td>
+                        <td data-column="Team Members"></td>
+                    </tr>
+                    <tr>
+                        <td data-column="Rank"></td>
+                        <td data-column="Team">Team Olive</td>
+                        <td data-column="Win Rate"></td>
+                        <td data-column="Average Kills"></td>
+                        <td data-column="Average Deaths"></td>
+                        <td data-column="Average Specials"></td>
+                        <td data-column="Average Turf Inked"></td>
+                        <td data-column="Team Members"></td>
+                    </tr>
+                    <tr>
+                        <td data-column="Rank"></td>
+                        <td data-column="Team">Kraken Paradise</td>
+                        <td data-column="Win Rate"></td>
+                        <td data-column="Average Kills"></td>
+                        <td data-column="Average Deaths"></td>
+                        <td data-column="Average Specials"></td>
+                        <td data-column="Average Turf Inked"></td>
+                        <td data-column="Team Members"></td>
+                    </tr>
+                    <tr>
+                        <td data-column="Rank"></td>
+                        <td data-column="Team">El Firmament</td>
+                        <td data-column="Win Rate"></td>
+                        <td data-column="Average Kills"></td>
+                        <td data-column="Average Deaths"></td>
+                        <td data-column="Average Specials"></td>
+                        <td data-column="Average Turf Inked"></td>
+                        <td data-column="Team Members"></td>
+                    </tr>
+                    <tr>
+                        <td data-column="Rank"></td>
+                        <td data-column="Team">Gagaku</td>
+                        <td data-column="Win Rate"></td>
+                        <td data-column="Average Kills"></td>
+                        <td data-column="Average Deaths"></td>
+                        <td data-column="Average Specials"></td>
+                        <td data-column="Average Turf Inked"></td>
+                        <td data-column="Team Members"></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
     </div>

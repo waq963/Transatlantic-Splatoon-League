@@ -1,45 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-        <link rel="shortcut icon" href="./img/logos/favicon.ico" type="image/x-icon">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Source+Sans+Pro|PT+Sans|ABeeZee" rel="stylesheet">
-        <title>Transatlantic Splatoon League</title>
-    
-        <link href="./style.css" rel="stylesheet">
-    </head>
-    
-    <body> 
-        <div id="wrapper">
-            <div id="bg_img"></div>
+    <link rel="shortcut icon" href="./img/logos/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Source+Sans+Pro|PT+Sans|ABeeZee" rel="stylesheet">
+    <title>Transatlantic Splatoon League</title>
+
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="bg_img"></div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div id="container">
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="./">Home</a>
+                </li>
+                <li>
+                    <a href="./teams.html">Teams</a>
+                </li>
+                <li>
+                    <a class="active" href="./schedule.html">Schedule</a>
+                </li>
+                <li>
+                    <a href="./leaderboard.html">Leaderboard</a>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Statistics</a>
+                    <div class="dropdown-content">
+                        <a href="./statistics/teams.html">Teams</a>
+                        <a href="./statistics/maps.html">Maps</a>
+                        <a href="./statistics/weapons.html">Weapons</a>
+                        <a href="./statistics/modes.html">Modes</a>
+                        <a href="./statistics/players.html">Players</a>
+                    </div>
+                </li>
+            </ul>
         </div>
-    
-        <div class="clearfix"></div>
-    
-        <div id="container">
-            <div class="nav">
-                <ul>
-                    <li><a href="./">Home</a></li>
-                    <li><a href="./teams.html">Teams</a></li>
-                    <li><a class="active" href="./schedule.html">Schedule</a></li>
-                    <li><a href="./leaderboard.html">Leaderboard</a></li>
-                    <li class="dropdown">
-                        <a href="javascript:void(0)" class="dropbtn">Statistics</a>
-                        <div class="dropdown-content">
-                            <a href="./statistics/teams.html">Teams</a>
-                            <a href="./statistics/maps.html">Maps</a>
-                            <a href="./statistics/weapons.html">Weapons</a>
-                            <a href="./statistics/modes.html">Modes</a>
-                            <a href="./statistics/players.html">Players</a>
-                        </div>
-                    </li>
-                </ul>
+
+        <div class="content">
+            <div class="schedule">
+                <h1>Week One</h1>
+                <div id="leftdiv">
+                    <img src="./img/logos/TASL_League_Logos_American_Div.png" style="width:35%;" />
+                    <h2>Saikai vs. Saffron Rice</h2>
+                    <h6>5 - 2</h6>
+                    <br>
+                    <h2>
+                        Neptune vs. TOMO
+                    </h2>
+                    <h6>TBD</h6>
+                </div>
+                <div id="rightdiv">
+                    <img src="./img/logos/TASL_League_Logos_European_Div.png" style="width:35%;" />
+                    <h2>Ethereal vs. Gagaku</h2>
+                    <h6>5 - 1</h6>
+                    <a href="https://www.twitch.tv/videos/242534516" title="Ethereal vs. Gagaku">
+                        <i class="fas fa-video" title="Ethereal vs. Gagaku (by EGTV)"></i>
+                    </a>
+                    <h2>Team Olive vs. El Firmament </h2>
+                    <h6>5 - 2 </h6>
+                    <a href="https://www.twitch.tv/videos/242434011" title="Olive v. El Firmament">
+                        <i class="fas fa-video" title="Olive v. El Firmament Part One (by EGTV)"></i>
+                    </a>
+                    <a href="https://www.twitch.tv/videos/242435972" title="Olive v. El Firmament">
+                        <i class="fas fa-video" title="Olive v. El Firmament Part Two (by EGTV)"></i>
+                    </a>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="showcase" style="overflow:auto;">
+                    <center>
+                        <h5>Map List</h5>
+                    </center>
+                    <div id="threecolumn">
+                        1) SZ on Blackbelly Skatepark
+                        <br> 2) RM on Kelp Dome
+                        <br> 3) CB on Manta Maria
+                        <br>
+                    </div>
+
+                    <div id="threecolumn">
+                        4) SZ on Goby Arena
+                        <br> 5) TC on Sturgeon Shipyard
+                        <br> 6) RM on Port Mackerel
+                        <br>
+                    </div>
+
+                    <div id="threecolumn">
+                        7) SZ on The Reef
+                        <br> 8) CB on Starfish Mainstage
+                        <br> 9) TC on Humpback Pump Track
+                        <br>
+                    </div>
+                    <br>
+                </div>
             </div>
-    
-            <div class="content">
-                <center><img src="./img/logos/week1-schedule.jpg" style="width:75%;height:75%;"></center>
-            </div>
-    
         </div>
-    </body>
+        <div class="content">
+            <div class="schedule">
+                <h1>Week Two</h1>
+                <div id="leftdiv">
+                    <img src="./img/logos/TASL_League_Logos_American_Div.png" style="width:35%;" />
+                    <h2>SetToDestroyX vs. Saffron Rice</h2>
+                    <h6>TBD</h6>
+                    <br>
+                    <h2>
+                        Saikai vs. TOMO
+                    </h2>
+                    <h6>TBD</h6>
+                </div>
+                <div id="rightdiv">
+                    <img src="./img/logos/TASL_League_Logos_European_Div.png" style="width:35%;" />
+                    <h2>Kraken Paradise vs. Gagaku</h2>
+                    <h6>TBD</h6>
+                    <br>
+                    <h2>Team Olive vs. Ethereal </h2>
+                    <h6>TBD</h6>
+                    <br>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="showcase" style="overflow:auto;">
+                    <center>
+                        <h5>Map List</h5>
+                    </center>
+                    <div id="threecolumn">
+                        1) SZ on Inkblot Art Academy
+                        <br> 2) TC on MakoMart
+                        <br> 3) RM on Walleye Warehouse
+                        <br>
+                    </div>
+                    <div id="threecolumn">
+                        4) SZ on Shellendorf Institute
+                        <br> 5) CB on Snapper Canal
+                        <br> 6) TC on Arowana Mall
+                        <br>
+                    </div>
+                    <div id="threecolumn">
+                        7) SZ on Blackbelly Skatepark
+                        <br> 8) RM on Musselforge Fitness
+                        <br> 9) CB on Moray Towers
+                        <br>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="schedule">
+                <h1>Week Three</h1>
+                <div id="leftdiv">
+                    <img src="./img/logos/TASL_League_Logos_American_Div.png" style="width:35%;" />
+                    <h2>SetToDestroyX vs. Neptune</h2>
+                    <h6>TBD</h6>
+                    <br>
+                    <h2>
+                        Saffron Rice vs. TOMO
+                    </h2>
+                    <h6>TBD</h6>
+                </div>
+                <div id="rightdiv">
+                    <img src="./img/logos/TASL_League_Logos_European_Div.png" style="width:35%;" />
+                    <h2>Kraken Paradise vs. El Firmament</h2>
+                    <h6>TBD</h6>
+                    <br>
+                    <h2>Team Olive vs. Gagaku </h2>
+                    <h6>TBD</h6>
+                    <br>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="showcase" style="overflow:auto;">
+                    <center>
+                        <h5>Map List</h5>
+                    </center>
+                    <div id="threecolumn">
+                        1) SZ on The Reef
+                        <br> 2) TC on Humpback Pump Track
+                        <br> 3) RM on Port Mackerel
+                        <br>
+                    </div>
+                    <div id="threecolumn">
+                        4) SZ on Goby Arena
+                        <br> 5) CB on Moray Towers
+                        <br> 6) TC on Sturgeon Shipyard
+                        <br>
+                    </div>
+                    <div id="threecolumn">
+                        7) SZ on Inkblot Art Academy
+                        <br> 8) RM on Kelp Dome
+                        <br> 9) CB on Starfish Mainstage
+                        <br>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
